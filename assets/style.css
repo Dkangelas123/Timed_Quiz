@@ -1,0 +1,35 @@
+.highscore{
+    font-size: 20px;
+}
+.Timer{
+    font-size: 20px;
+    float: right;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 250px;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    width: 500px;
+    padding-left: 700px;
+}
+b{
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+}
+button{
+    background-color: blueviolet;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'calibri';
+    color: white;
+    
+}
