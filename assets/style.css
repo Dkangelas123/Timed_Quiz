@@ -1,35 +1,47 @@
-.highscore{
+#highscore{
     font-size: 20px;
+    color: rgb(155, 5, 155);
+    font-weight: bold;
+    font-family: 'calibri';
+    background-color: white;
+    border-style: hidden;
 }
-.Timer{
+#Timer{
     font-size: 20px;
     float: right;
+    font-weight: bold;
+    font-family: 'calibri';
 }
 
-h1{
+#h1{
     text-align: center;
     font-size: 40px;
     padding-top: 250px;
+    font-family: 'calibri';
+    font-weight: bold;
 }
 
-p{
-    text-align: center;
-    font-size: 20px;
-    width: 500px;
-    padding-left: 700px;
-}
-b{
-    text-align: center;
+
+#what{
+   text-align: center;
+   font-size: 20px;
+   font-family: 'calibri';
+   margin-left: auto;
+    margin-right: auto;
+    width: 590px;
 }
 
-.btn{
+
+#btn{
     text-align: center;
 }
 button{
-    background-color: blueviolet;
+    background-color: rgb(68, 3, 129);
     border-radius: 5px;
-    font-size: 17px;
+    font-size: 22px;
     font-family: 'calibri';
     color: white;
-    
+    border-color: rgb(68, 3, 129);
+    font-weight: bold;
 }
+
