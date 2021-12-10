@@ -45,3 +45,11 @@ button{
     font-weight: bold;
 }
 
+#btncenter{
+    text-align: center;
+}
+
+#initials{
+    text-align: center;
+    font-size: 25px;
+}
