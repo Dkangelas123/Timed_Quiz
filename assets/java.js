@@ -38,7 +38,6 @@ if(runningquestion === lastquestion){
 
 }
 
-
 function startquiz() {
   deleteScore.style.display = "none"
 menuEL.style.display = "none"
@@ -88,31 +87,15 @@ function viewHighscores(){
   menuEL.style.display = "none"
   scoresRecord.style.display =""
   returnMenu.style.display = ""
-  deleteScore.style.display = ""
-
-  
-    
-   
-    
+  deleteScore.style.display = ""  
 }
 
 var again = function(){
     window.location.reload();
 }
 
-
-
-
-
-
-
-
 document.getElementById("highscore").addEventListener("click", viewHighscores);
-
-
-
 document.getElementById("refresh").addEventListener("click", again);
-
 document.getElementById("btn").addEventListener("click", startquiz);
 
 
